@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MotionLayoutExample</string>
+    <string name="example_01">Example 01</string>
+    <string name="example_02">Example 02</string>
+</resources>

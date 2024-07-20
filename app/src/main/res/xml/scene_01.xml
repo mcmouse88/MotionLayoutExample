@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto" >
+
+    <Transition
+        motion:constraintSetStart="@layout/motion_01_cl_start"
+        motion:constraintSetEnd="@layout/motion_01_cl_end"
+        motion:duration="1000" >
+
+        <!--
+         touchAnchorId: the object we should track (here, @+id/button)
+         touchAnchorSide: the side of the object that should track your finger (right/ top / etc.)
+
+         dragDirection: the direction of the motion we are tracking (dragRight / dragLeft / dragUp
+         / dragDown will define how the progress value will be set, from 0 to 1)
+         -->
+        <OnSwipe
+            motion:touchAnchorId="@+id/button"
+            motion:touchAnchorSide="end"
+            motion:dragDirection="dragEnd" />
+    </Transition>
+</MotionScene>
