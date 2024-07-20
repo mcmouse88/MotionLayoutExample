@@ -3,6 +3,7 @@
 > Links to source
 
 ##### [Part 1](https://medium.com/google-developers/introduction-to-motionlayout-part-i-29208674b10d)
+##### [Part 2](https://medium.com/google-developers/introduction-to-motionlayout-part-ii-a31acc084f59#8288)
 
 > About ConstraintSet
 

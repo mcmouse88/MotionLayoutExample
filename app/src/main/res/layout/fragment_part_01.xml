@@ -6,11 +6,11 @@
     android:gravity="center" >
 
     <Button
-        android:id="@+id/btn_part_01"
+        android:id="@+id/btn_example01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minWidth="250dp"
-        android:text="@string/part_01"
+        android:text="@string/example_01"
         android:layout_gravity="center" />
 
     <Space
@@ -18,10 +18,10 @@
         android:layout_height="16dp" />
 
     <Button
-        android:id="@+id/btn_part_02"
+        android:id="@+id/btn_example02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minWidth="250dp"
-        android:text="@string/part_02"
+        android:text="@string/example_02"
         android:layout_gravity="center" />
 </LinearLayout>

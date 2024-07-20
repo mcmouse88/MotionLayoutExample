@@ -4,12 +4,13 @@
     android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layoutDescription="@xml/scene_01">
+    app:layoutDescription="@xml/scene_04">
 
-    <View
-        android:id="@+id/button"
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/image"
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:background="@color/design_default_color_error" />
+        android:src="@drawable/ava_left"
+        app:altSrc="@drawable/ava_right" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
