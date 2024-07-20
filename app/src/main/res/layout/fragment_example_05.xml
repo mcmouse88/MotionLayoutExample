@@ -4,12 +4,13 @@
     android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layoutDescription="@xml/scene_01">
+    app:layoutDescription="@xml/scene_05">
 
-    <View
-        android:id="@+id/button"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@color/design_default_color_error" />
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/sunset"
+        android:scaleType="centerCrop" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
