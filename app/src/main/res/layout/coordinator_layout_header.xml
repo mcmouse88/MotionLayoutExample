@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcmouse88.motionlayoutexample.part_03.coordinator.CollapsibleToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dp"
+    app:layoutDescription="@xml/scene_08"
+    app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed" >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/monterey" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp"
+        android:text="@string/monterey"
+        android:textColor="#FFF"
+        android:textSize="32sp" />
+
+</com.mcmouse88.motionlayoutexample.part_03.coordinator.CollapsibleToolbar>
