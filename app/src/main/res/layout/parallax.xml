@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcmouse88.motionlayoutexample.part_03.viewpager.ViewPagerHeader xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    app:layoutDescription="@xml/scene_10">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mountains"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mountains" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/trees1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/trees"
+        app:layout_editor_absoluteX="23dp"
+        app:layout_editor_absoluteY="130dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/trees2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/trees"
+        app:layout_editor_absoluteX="7dp"
+        app:layout_editor_absoluteY="98dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/car"
+        app:layout_editor_absoluteX="7dp"
+        app:layout_editor_absoluteY="194dp" />
+</com.mcmouse88.motionlayoutexample.part_03.viewpager.ViewPagerHeader>

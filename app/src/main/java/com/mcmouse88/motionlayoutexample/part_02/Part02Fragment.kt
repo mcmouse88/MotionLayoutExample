@@ -37,4 +37,9 @@ class Part02Fragment : Fragment(R.layout.fragment_part_02) {
             parentFragmentManager.navigate(Example07Fragment::class.java)
         }
     }
+
+    override fun onDestroyView() {
+        _binding = null
+        super.onDestroyView()
+    }
 }
